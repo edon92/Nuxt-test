@@ -134,30 +134,30 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 
 
 var router = new __WEBPACK_IMPORTED_MODULE_1_koa_router___default.a({
-    prefix: '/city'
+  prefix: '/city'
 });
 
 router.get('/list', function () {
-    var _ref = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0__Users_edon_Desktop_frontend_projects_nuxt_learn_node_modules_babel_runtime_regenerator___default.a.mark(function _callee(ctx) {
-        return __WEBPACK_IMPORTED_MODULE_0__Users_edon_Desktop_frontend_projects_nuxt_learn_node_modules_babel_runtime_regenerator___default.a.wrap(function _callee$(_context) {
-            while (1) {
-                switch (_context.prev = _context.next) {
-                    case 0:
-                        ctx.body = {
-                            list: ['北京', '天津']
-                        };
+  var _ref = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0__Users_edon_Desktop_frontend_projects_nuxt_learn_node_modules_babel_runtime_regenerator___default.a.mark(function _callee(ctx) {
+    return __WEBPACK_IMPORTED_MODULE_0__Users_edon_Desktop_frontend_projects_nuxt_learn_node_modules_babel_runtime_regenerator___default.a.wrap(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            ctx.body = {
+              list: ['北京', '天津']
+            };
 
-                    case 1:
-                    case 'end':
-                        return _context.stop();
-                }
-            }
-        }, _callee, _this);
-    }));
+          case 1:
+          case 'end':
+            return _context.stop();
+        }
+      }
+    }, _callee, _this);
+  }));
 
-    return function (_x) {
-        return _ref.apply(this, arguments);
-    };
+  return function (_x) {
+    return _ref.apply(this, arguments);
+  };
 }());
 
 /* harmony default export */ exports["a"] = router;
